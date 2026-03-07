@@ -47,7 +47,6 @@ def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
         "--side",
         type=str,
         required=True,
-        choices=["BUY", "SELL"],
         metavar="BUY|SELL",
         help="Order side: BUY or SELL.",
     )
@@ -55,7 +54,6 @@ def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
         "--order_type",
         type=str,
         required=True,
-        choices=["MARKET", "LIMIT"],
         metavar="MARKET|LIMIT",
         help="Order type: MARKET or LIMIT.",
     )
