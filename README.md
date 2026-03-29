@@ -1,7 +1,7 @@
 # Binance Futures Demo Trading Bot
 
 A production-ready CLI trading bot that places **MARKET** and **LIMIT** orders
-on the Binance USDT-M Futures Demo environment.
+on the Binance Futures Testnet (Demo environment).
 
 ---
 
